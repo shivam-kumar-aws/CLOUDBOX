@@ -76,9 +76,6 @@ shadcn-ui/
 ├── LOCAL_SETUP_GUIDE.md # Local development setup guide
 └── vite.config.ts # Vite config
 
-yaml
-Copy code
-
 ---
 
 ## ⚡ Getting Started  
@@ -92,22 +89,16 @@ Copy code
 git clone https://github.com/your-username/cloudbox.git
 cd cloudbox
 3️⃣ Install Dependencies
-bash
-Copy code
+
 pnpm install
 4️⃣ Run Development Server
-bash
-Copy code
 pnpm dev
 App will run on: http://localhost:5173
 
 5️⃣ Build for Production
-bash
-Copy code
 pnpm build
 6️⃣ Preview Production Build
-bash
-Copy code
+
 pnpm preview
 🧩 Contribution Guide
 We welcome contributions! To get started:
@@ -116,18 +107,12 @@ Fork the repo
 
 Create a feature branch
 
-bash
-Copy code
 git checkout -b feature/amazing-feature
 Commit your changes
 
-bash
-Copy code
 git commit -m "Add amazing feature"
 Push the branch
 
-bash
-Copy code
 git push origin feature/amazing-feature
 Open a Pull Request 🎉
 
@@ -149,9 +134,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 Shivam Kumar
 📧 shivamkumar8021@gmail.com
 🔗 GitHub | LinkedIn
-
-yaml
-Copy code
 
 ---
 
