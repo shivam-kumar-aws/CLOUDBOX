@@ -49,7 +49,7 @@ It offers **intuitive navigation**, **comprehensive file management**, and **ana
 ---
 ## 📂 Project Structure  
 
-"shadcn-ui/
+```shadcn-ui/
 ├── README.md # Project overview and setup
 ├── components.json # Component definitions
 ├── eslint.config.js # ESLint rules
@@ -73,7 +73,7 @@ It offers **intuitive navigation**, **comprehensive file management**, and **ana
 ├── todo.md # Future enhancements
 ├── tsconfig.* # TypeScript configs
 ├── LOCAL_SETUP_GUIDE.md # Local development setup guide
-└── vite.config.ts # Vite config"
+└── vite.config.ts # Vite config```
 ---
 
 ## ⚡ Getting Started  
