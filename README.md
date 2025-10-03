@@ -47,7 +47,6 @@ It offers **intuitive navigation**, **comprehensive file management**, and **ana
 - **Tooling**: [Vite](https://vitejs.dev/), [pnpm](https://pnpm.io/), [ESLint](https://eslint.org/)  
 
 ---
-
 ## 📂 Project Structure  
 
 "shadcn-ui/
