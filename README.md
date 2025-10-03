@@ -75,7 +75,6 @@ shadcn-ui/
 ├── tsconfig.* # TypeScript configs
 ├── LOCAL_SETUP_GUIDE.md # Local development setup guide
 └── vite.config.ts # Vite config
-
 ---
 
 ## ⚡ Getting Started  
