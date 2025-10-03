@@ -1,49 +1,162 @@
-Shadcn-UI Template Usage Instructions
-technology stack
-This project is built with:
+# 📦 CLOUDBOX – Cloud Storage Platform  
 
-Vite
-TypeScript
-React
-shadcn-ui
-Tailwind CSS
-All shadcn/ui components have been downloaded under @/components/ui.
+[![React](https://img.shields.io/badge/React-19.1.1-blue?logo=react)](https://react.dev/)  
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org/)  
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)  
+[![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite)](https://vitejs.dev/)  
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
-File Structure
-index.html - HTML entry point
-vite.config.ts - Vite configuration file
-tailwind.config.js - Tailwind CSS configuration file
-package.json - NPM dependencies and scripts
-src/app.tsx - Root component of the project
-src/main.tsx - Project entry point
-src/index.css - Existing CSS configuration
-src/pages/Index.tsx - Home page logic
-Components
-All shadcn/ui components are pre-downloaded and available at @/components/ui
-Styling
-Add global styles to src/index.css or create new CSS files as needed
-Use Tailwind classes for styling components
-Development
-Import components from @/components/ui in your React components
-Customize the UI by modifying the Tailwind configuration
-Note
-The @/ path alias points to the src/ directory
-In your typescript code, don’t re-export types that you’re already importing
-Commands
-Install Dependencies
+> **CLOUDBOX** is a secure and efficient cloud storage platform tailored for individuals and businesses.  
+It offers **intuitive navigation**, **comprehensive file management**, and **analytics on storage usage** to ensure a seamless user experience.  
 
-pnpm i
+---
+
+## ✨ Features  
+
+- **🏠 Home Dashboard** – Recent activity, storage stats, quick actions, and user greetings.  
+- **📁 Files Manager** – Upload files, create folders, move files, drag & drop, and real-time feedback.  
+- **🔗 Shared** – Manage files shared with you and permissions.  
+- **⭐ Starred** – Quick access to favorited files.  
+- **🕒 Recent** – View recently accessed items.  
+- **🗑️ Trash** – Restore or permanently delete files.  
+- **👤 Profile** – Manage personal details.  
+- **⚙️ Settings** – Configure account security and privacy.  
+- **📊 Analytics** – Visual insights into file usage and storage trends.  
+- **📱 Responsive Navigation** – Collapsible sidebar optimized for mobile devices.  
+
+---
+
+## 🖼️ Screenshots  
+
+> *(Add actual screenshots once available – placeholders below)*  
+
+| Dashboard | File Manager | Analytics |
+|-----------|--------------|-----------|
+| ![Dashboard](public/screenshots/dashboard.png) | ![Files](public/screenshots/files.png) | ![Analytics](public/screenshots/analytics.png) |
+
+---
+
+## 🛠️ Technology Stack  
+
+- **Framework**: [React 19.1.1](https://react.dev/) with [TypeScript](https://www.typescriptlang.org/)  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [PostCSS](https://postcss.org/)  
+- **UI/UX**: [Radix UI](https://www.radix-ui.com/) + [Framer Motion](https://www.framer.com/motion/) + [Lucide Icons](https://lucide.dev/)  
+- **State & Forms**: React Context API, [React Hook Form](https://react-hook-form.com/) + [Zod Validation](https://zod.dev/)  
+- **Routing**: [React Router](https://reactrouter.com/)  
+- **Data Visualization**: [Recharts](https://recharts.org/en-US/)  
+- **Tooling**: [Vite](https://vitejs.dev/), [pnpm](https://pnpm.io/), [ESLint](https://eslint.org/)  
+
+---
+
+## 📂 Project Structure  
+
+shadcn-ui/
+├── README.md # Project overview and setup
+├── components.json # Component definitions
+├── eslint.config.js # ESLint rules
+├── index.html # Root HTML
+├── package.json # Dependencies & scripts
+├── pnpm-lock.yaml # Lockfile
+├── postcss.config.js # PostCSS config
+├── public/ # Static assets (favicon, robots.txt, screenshots)
+├── src/ # Core application
+│ ├── App.css # Main CSS
+│ ├── App.tsx # Root App component with routing
+│ ├── components/ # Reusable UI components
+│ ├── contexts/ # Global state via Context API
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utilities & mock data
+│ ├── pages/ # Pages (Home, Files, Shared, etc.)
+│ └── main.tsx # App entry point
+├── styles/theme.css # Theme customization
+├── tailwind.config.ts # Tailwind setup
+├── template_config.json # Template settings
+├── todo.md # Future enhancements
+├── tsconfig.* # TypeScript configs
+├── LOCAL_SETUP_GUIDE.md # Local development setup guide
+└── vite.config.ts # Vite config
+
+yaml
+Copy code
+
+---
+
+## ⚡ Getting Started  
+
+### 1️⃣ Prerequisites  
+- Node.js **>=18**  
+- [pnpm](https://pnpm.io/) installed globally  
+
+### 2️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/cloudbox.git
+cd cloudbox
+3️⃣ Install Dependencies
+bash
+Copy code
+pnpm install
+4️⃣ Run Development Server
+bash
+Copy code
+pnpm dev
+App will run on: http://localhost:5173
+
+5️⃣ Build for Production
+bash
+Copy code
+pnpm build
+6️⃣ Preview Production Build
+bash
+Copy code
+pnpm preview
+🧩 Contribution Guide
+We welcome contributions! To get started:
+
+Fork the repo
+
+Create a feature branch
+
+bash
+Copy code
+git checkout -b feature/amazing-feature
+Commit your changes
+
+bash
+Copy code
+git commit -m "Add amazing feature"
+Push the branch
+
+bash
+Copy code
+git push origin feature/amazing-feature
+Open a Pull Request 🎉
+
+📌 Roadmap
+ Add dark mode toggle
+
+ Enhance analytics dashboard
+
+ Integrate cloud storage backend (AWS S3 / Firebase)
+
+ Multi-user collaboration features
+
+ Offline file support
+
+📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+👨‍💻 Author
+Shivam Kumar
+📧 shivamkumar8021@gmail.com
+🔗 GitHub | LinkedIn
+
+yaml
+Copy code
+
+---
+
+Shivam, would you like me to also add a **"Deployment" section** (showing how this can be deployed to AWS S3/EC2/Netlify/Vercel) so recruiters see it as a complete **cloud-ready project**?
 
 
-Add Dependencies
 
-pnpm add some_new_dependency
 
-**Start Preview**
-
-```shell
-pnpm run dev
-
-To build
-
-pnpm run build
